@@ -1,19 +1,10 @@
 {
 	"MOTD": "Voltage - Powered by crunchy#0999 and Grandpa Herbert#6969 - discord.gg/voltage",
 	"Version": 107,
-	"AdConfig": [{
-		"ZONE": 202,
-		"AD": "1024x256.png",
-	}, {
-		"ZONE": 201,
-		"AD": "024x256.png",
-	}, {
-		"ZONE": 403,
-		"AD": "1024x512.png",
-	}, {
-		"ZONE": 404,
-		"AD": "1024x512.png",
-	}],
+	"AdConfig": {
+		"512": "1024x512.png",
+		"256": "1024x256.png"
+	},
 	"Events": [{
 		"Title": "Peel it!",
 		"ID": "PEEL1222",
