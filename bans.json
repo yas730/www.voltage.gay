@@ -1,0 +1,16 @@
+{
+	"TempBans": [{
+		"Player": "fd2f9215-bb7e-48cf-b1c0-a0ae67ea44d8",
+		"BannedUntil": 1674547200,
+		"Reason": "abusing the Title Spawning feature."
+	}],
+	"PermBans": [{
+		"Player": "fd2f9215-bb7e-48cf-b1c0-a0ae67ea44d8",
+		"Reason": "reselling the mod."
+	}],
+	"InviteFeatureBans": [{
+		"Player": "fd2f9215-bb7e-48cf-b1c0-a0ae67ea44d8",
+		"BannedUntil": 1674547200,
+                "Reason": "inviting streamers repeatedly."
+	}]
+}

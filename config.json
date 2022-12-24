@@ -1,0 +1,12 @@
+{
+	"MOTD": "Voltage - Powered by crunchy#0999 and Grandpa Herbert#6969 - discord.gg/voltage",
+	"Version": 106,
+	"Events": [{
+		"Title": "Peel it!",
+		"ID": "PEEL1222",
+		"StartTime": 1669900000,
+		"EndTime": 1669900000,
+		"Description": "Let your insides breathe for a while.",
+		"Messages": ["does your skin fit right on your body?", "we wont judge, don't worry :)", "go ahead! take it off for a while, it'll be nice.", "it isn't comfortable, is it?", "maybe its time to take a turn for once?", "peel it off, peel your skin off REPLACEWINDOWSNAME"]
+	}]
+}
