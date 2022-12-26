@@ -5,12 +5,17 @@
 		"Reason": "abusing the Title Spawning feature."
 	}],
 	"PermBans": [{
-		"HWID": "463b8522-590b-4eac-838c-2af056ab31e3",
-		"Reason": "chargeback without warning."
-	}],
+			"HWID": "463b8522-590b-4eac-838c-2af056ab31e3",
+			"Reason": "chargeback without warning."
+		},
+		{
+			"HWID": "d9b848fd-078b-4910-8703-de548a9b4cf2",
+			"Reason": "Scammer."
+		}
+	],
 	"InviteFeatureBans": [{
 		"HWID": "EXAMPLE",
 		"BannedUntil": 1674547200,
-                "Reason": "inviting streamers repeatedly."
+		"Reason": "inviting streamers repeatedly."
 	}]
 }
