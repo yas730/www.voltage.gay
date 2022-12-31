@@ -21,8 +21,12 @@
 			"Reason": "GrizzlyMod."
 		},
 		{
-			"HWID": "a411add9-259c-4bed-8159-8dcdbddeb1a3",
-			"Reason": "Reseller."
+			"HWID": "f0d85d96-f477-4041-b600-dac8b361fa99",
+			"Reason": "Scammer."
+		},
+		{
+			"HWID": "f7665aa9-a4f4-495f-b74e-0f2c2c3c8000",
+			"Reason": "Scammer."
 		}
 	],
 	"InviteFeatureBans": [{
