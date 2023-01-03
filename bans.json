@@ -39,6 +39,10 @@
 		{
 			"HWID": "a49769f5-0f81-4b9c-875d-5d14737d755c",
 			"Reason": "Scammer."
+		},
+		{
+			"HWID": "9d6661f9-9ca4-4fd1-ab53-dfa5a5b53a58",
+			"Reason": "GrizzlyMod."
 		}
 	],
 	"InviteFeatureBans": [{
