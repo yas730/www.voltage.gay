@@ -51,8 +51,11 @@
                 {
 			"HWID": "ef763e27-34de-4f41-b172-0170c9910039",
 			"Reason": "Scammer."
+		},
+                {
+			"HWID": "2b0b723c-a7b8-b201-5cc8-78dc156dae09",
+			"Reason": "Scammer."
 		}
-
 	],
 	"InviteFeatureBans": [{
 		"HWID": "EXAMPLE",
