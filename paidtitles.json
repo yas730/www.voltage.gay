@@ -224,8 +224,8 @@
 		{
 			"PlayerID": "76561198350260642",
 			"TitleText": "i eat ass",
-			"TitleColor": "#964B00",
-			"TitleGlowColor": "#964B00"
+			"TitleColor": "964B00",
+			"TitleGlowColor": "964B00"
 		}
 	]
 }
