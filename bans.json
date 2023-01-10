@@ -2,7 +2,7 @@
 	"TempBans": [{
 		"HWID": "EXAMPLE",
 		"BannedUntil": 1674547200,
-		"Reason": "abusing the Title Spawning feature."
+		"Reason": "abusing the title spawning feature."
 	}],
 	"PermBans": [{
 			"HWID": "463b8522-590b-4eac-838c-2af056ab31e3",
