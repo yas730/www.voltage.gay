@@ -59,6 +59,10 @@
                 {
 			"HWID": "d721d61d-ba3c-418a-addb-7e50bdea545f",
 			"Reason": "Kyhrow."
+		},
+		{
+			"HWID": "fa46f9b7-7193-4f55-802f-acd135fdc29d",
+			"Reason": "Scammer."
 		}
 	],
 	"InviteFeatureBans": [{
