@@ -1,29 +1,47 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <script>
-      function search() {
-        var query = document.getElementById("query").value;
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://www.googleapis.com/customsearch/v1?q=" + query + "&cx=017576662512468239146:omuauf_lfve&key=AIzaSyCVAXiUzRYsML1Pv6RwSG1gunmMikTzQqY");
-        xhr.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            var response = JSON.parse(this.responseText);
-            var results = response.items;
-            var output = "";
-            for (var i = 0; i < results.length; i++) {
-              output += "<h2><a href='" + results[i].link + "'>" + results[i].title + "</a></h2>";
-              output += "<p>" + results[i].snippet + "</p>";
-            }
-            document.getElementById("results").innerHTML = output;
-          }
-        };
-        xhr.send();
-      }
-    </script>
-  </head>
-  <body>
-    <input type="text" id="query"/>
-    <button onclick="search()">Search</button>
-    <div id="results"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>3060 Google</title>
+  <style>
+    /* Add some futuristic styling */
+    body {
+      background-color: #ccc;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    input[type="text"] {
+      padding: 0.5em;
+      font-size: 1.5em;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    input[type="submit"] {
+      padding: 0.5em 1em;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      font-size: 1.5em;
+      cursor: pointer;
+      margin-left: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <form>
+      <input type="text" placeholder="Search 3060 Google">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+</body>
 </html>
