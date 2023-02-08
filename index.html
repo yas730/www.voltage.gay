@@ -1,56 +1,49 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elon's Favorite Website</title>
+  <title>Elon's Favorite Space Fun Site</title>
   <style>
-    body {
-      background-color: #f2f2f2;
-      font-family: Arial, sans-serif;
-    }
-    
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      text-align: center;
-    }
-    
-    h1 {
-      font-size: 36px;
-      color: #333;
-      margin-top: 50px;
-    }
-    
-    button {
-      padding: 10px 20px;
-      background-color: #0c9;
+    .header {
+      background-color: #333;
       color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .section {
+      background-color: #eee;
+      padding: 20px;
+    }
+    
+    .fact {
+      font-style: italic;
+      font-size: 20px;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to Elon's Favorite Website</h1>
-    <button id="menuBtn">Open Menu</button>
+  <div class="header">
+    <h1>Space Fun Facts</h1>
   </div>
   
-  <script>
-    const menuBtn = document.querySelector('#menuBtn');
-    let isOpen = false;
-    
-    menuBtn.addEventListener('click', function() {
-      if (!isOpen) {
-        console.log('Menu Open');
-        isOpen = true;
-      } else {
-        console.log('Menu Closed');
-        isOpen = false;
-      }
-    });
-  </script>
+  <div class="section">
+    <p class="fact">Did you know that on average, a person will travel over 6,000 miles in their lifetime just due to being in space?</p>
+  </div>
+  
+  <div class="section">
+    <p class="fact">There is a region in space known as the "Eye of God," which is a breathtaking image captured by the Hubble Space Telescope.</p>
+  </div>
+  
+  <div class="section">
+    <p class="fact">The first spacecraft to visit another planet was Mariner 2, which flew by Venus in 1962.</p>
+  </div>
+  
+  <div class="header">
+    <h2>Learn More</h2>
+  </div>
+  
+  <div class="section">
+    <button>Explore More Space Fun Facts</button>
+  </div>
 </body>
 </html>
