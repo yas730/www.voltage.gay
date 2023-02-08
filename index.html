@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fake Google</title>
+    <title>Voltage Search</title>
     <style>
       /* Add your own styles here */
       /* Some styles to start you off */
@@ -36,9 +36,17 @@
   </head>
   <body>
     <form>
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-      <input type="text" placeholder="Search">
-      <input type="submit" value="Search" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">
+      <img src="https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico" alt="Voltage logo">
+      <input type="text" id="searchTerm" placeholder="Search Voltage">
+      <input type="submit" value="Search" onclick="searchVoltage()">
     </form>
+    <script>
+      function searchVoltage() {
+        // Get the search term
+        const searchTerm = document.getElementById("searchTerm").value;
+        // Redirect the user to a Rick Roll video on YouTube
+        window.location.href = `https://www.youtube.com/watch?v=dQw4w9WgXcQ?search=${searchTerm}`;
+      }
+    </script>
   </body>
 </html>
