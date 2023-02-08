@@ -1,52 +1,29 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Voltage Search</title>
-    <style>
-      /* Add your own styles here */
-      /* Some styles to start you off */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
-      }
-      form {
-        background-color: #fff;
-        border: 1px solid #e5e5e5;
-        width: 500px;
-        margin: 100px auto;
-        padding: 40px;
-        text-align: center;
-        box-shadow: 0 0 10px #ccc;
-      }
-      input[type="text"] {
-        width: 60%;
-        padding: 10px;
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      input[type="submit"] {
-        padding: 10px 20px;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        font-size: 16px;
-        cursor: pointer;
-      }
-    </style>
-  </head>
-  <body>
-    <form>
-      <img src="https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico" alt="Voltage logo">
-      <input type="text" id="searchTerm" placeholder="Search Voltage">
-      <input type="submit" value="Search" onclick="searchVoltage()">
-    </form>
     <script>
-      function searchVoltage() {
-        // Get the search term
-        const searchTerm = document.getElementById("searchTerm").value;
-        // Redirect the user to a Rick Roll video on YouTube
-        window.location.href = `https://www.youtube.com/watch?v=dQw4w9WgXcQ?search=${searchTerm}`;
+      function search() {
+        var query = document.getElementById("query").value;
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://www.googleapis.com/customsearch/v1?q=" + query + "&cx=017576662512468239146:omuauf_lfve&key=AIzaSyCVAXiUzRYsML1Pv6RwSG1gunmMikTzQqY");
+        xhr.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var response = JSON.parse(this.responseText);
+            var results = response.items;
+            var output = "";
+            for (var i = 0; i < results.length; i++) {
+              output += "<h2><a href='" + results[i].link + "'>" + results[i].title + "</a></h2>";
+              output += "<p>" + results[i].snippet + "</p>";
+            }
+            document.getElementById("results").innerHTML = output;
+          }
+        };
+        xhr.send();
       }
     </script>
+  </head>
+  <body>
+    <input type="text" id="query"/>
+    <button onclick="search()">Search</button>
+    <div id="results"></div>
   </body>
 </html>
