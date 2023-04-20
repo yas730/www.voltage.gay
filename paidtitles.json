@@ -272,9 +272,15 @@
         },
         {
             "PlayerID": "3b81626b395d48e4b2252e594e9545d8",
-            "TitleText": "Professional Nigger",
-            "TitleColor": "AEF7FF",
-            "TitleGlowColor": "43AFFF"
+            "TitleText": "meow",
+            "TitleColor": "FF2800",
+            "TitleGlowColor": ""
+        },
+        {
+            "PlayerID": "81626b395d48e4b2252e594e9545d8",
+            "TitleText": "meow",
+            "TitleColor": "FF2800",
+            "TitleGlowColor": "FFFFFF"
         }
     ]
 }
