@@ -275,12 +275,6 @@
             "TitleText": "meow",
             "TitleColor": "FF2800",
             "TitleGlowColor": ""
-        },
-        {
-            "PlayerID": "Crunchy's Master",
-            "TitleText": "",
-            "TitleColor": "FF2800",
-            "TitleGlowColor": ""
         }
     ]
 }
