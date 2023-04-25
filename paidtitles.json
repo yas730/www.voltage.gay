@@ -1,12 +1,6 @@
 {
     "CustomTitles": [
         {
-            "PlayerID": "fec1674ada544469ae06f87bb8fc56d0",
-            "TitleText": "Professional Femboy",
-            "TitleColor": "DBD2FF",
-            "TitleGlowColor": "8C50FF"
-        },
-        {
             "PlayerID": "b3e8d07b3b7f44b3b4c864f0dc075f67",
             "TitleText": "Season 10 Grand Champion",
             "TitleColor": "FFEB5C",
@@ -41,12 +35,6 @@
             "TitleText": "Voltage Artist",
             "TitleColor": "FF01AA",
             "TitleGlowColor": "FF01AA"
-        },
-        {
-            "PlayerID": "fe133f1d8a6c4ef3a6e9a93053b72116",
-            "TitleText": "Professional Femboy",
-            "TitleColor": "DBD2FF",
-            "TitleGlowColor": "8C50FF"
         },
         {
             "PlayerID": "76561198799178176",
